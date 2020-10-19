@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--
+        The following bit of code is essential to responsive web design.
+        "width=device-width" sets the width of the page to follow the screen width of the device viewing it,
+        while "inital-scale=1.0" sets the inital zoom level when the page is first loaded by the browser.
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--These remaining meta tags are useful for SEO, Search Engine Optimization.-->
+    <meta name="description" content="Affordable and professional web design">
+    <meta name="keywords" content="web design, affordable web design, professional web design">
+    <meta name="author" content="Dawson June">
+    <!--The line of code below links the CSS stylesheet we created to the HTML on this page.-->
+    <link rel="stylesheet" href="css/styles.css">
+    <!--
+        The title tag controls what is seen at the top of a tab in-browser - frequently, websites will also add a "|" to indicate what page the user is on;
+        in this case, the user is on the "Welcome" screen and so "| Welcome" follows the name of the website.-->
+    <title>Acme Web Design | Abotu</title>
+</head>
+<body>
+    <header>
+        <!--We use a div with the class "container" to literally contain all the elements and help with styling and alignment.-->
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Acme</span> Web Design</h1>
+            </div>
+            
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a> </li>
+                    <li  class="current"><a href="services.html">Services</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="newsletter">
+        <div class="container">
+            <h1>Subscribe To Our Newsletter!</h1>
+            <form>
+                <input type="email" placeholder="Enter Email...">
+                <button type="submit" class="button_1">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <main>
+        <div class="container">
+            <article id="main-col">
+                <h1 class="page-title">Services</h1>
+                <ul id="services-list">
+                    <li>
+                        <h3>Website Design</h3>
+                        <p>
+                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+                            totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                        </p>
+                        <p>Pricing: $1,000 - $3,000</p>
+                    </li>
+                    <li>
+                        <h3>Website Maintenance</h3>
+                        <p>
+                            Tesseract tendrils of gossamer clouds dream of the mind's eye Hypatia a mote of dust suspended in a sunbeam prime number? 
+                            Extraordinary claims require extraordinary evidence emerged into consciousness culture vastness is bearable only through love rogue citizens of distant epochs. 
+                            A very small stage in a vast cosmic arena hearts of the stars Euclid two ghostly white figures in coveralls and helmets are softly dancing descended from astronomers 
+                            hearts of the stars and billions upon billions upon billions upon billions upon billions upon billions upon billions.
+                        </p>
+                        <p>Pricing: $250 per month</p>
+                    </li>
+                    <li>
+                        <h3>Website Hosting</h3>
+                        <p>
+                            Calm down, Marty, I didn’t disintegrate anything. The molecular structure of Einstein and the car are completely intact. 
+                            Marty, you gotta come back with me. They wanted me to build them a bomb, so I took their plutonium and in turn gave them a 
+                            shiny bomb case full of used pinball machine parts.
+                        </p>
+                        <p>Pricing: $25 per month</p>
+                    </li>
+                </ul>
+            
+            </article>
+            
+            <aside id="sidebar">
+                <div class="dark">
+                    <h3>Get A Quote</h3>
+                    <form class="quote">
+                        <div>
+                            <label>Name</label><br>
+                            <input type="text" placeholder="Name">
+                        </div>
+                        <div>
+                            <label>Email</label><br>
+                            <input type="email" placeholder="Email Address">
+                        </div>
+                        <div>
+                            <label>Message</label><br>
+                            <textarea placeholder="Message"></textarea>
+                        </div>
+                        <button class="button_1" type="submit">Send</button>
+                    </form>
+                </div>
+            </aside>
+        </div>
+    </main>
+    <footer>
+        <p>Acme Web Design, Copyright &copy; 2020</p>
+    </footer>
+</body>
+</html>
