@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--
+        The following bit of code is essential to responsive web design.
+        "width=device-width" sets the width of the page to follow the screen width of the device viewing it,
+        while "inital-scale=1.0" sets the inital zoom level when the page is first loaded by the browser.
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--These remaining meta tags are useful for SEO, Search Engine Optimization.-->
+    <meta name="description" content="Affordable and professional web design">
+    <meta name="keywords" content="web design, affordable web design, professional web design">
+    <meta name="author" content="Dawson June">
+    <!--The line of code below links the CSS stylesheet we created to the HTML on this page.-->
+    <link rel="stylesheet" href="css/styles.css">
+    <!--
+        The title tag controls what is seen at the top of a tab in-browser - frequently, websites will also add a "|" to indicate what page the user is on;
+        in this case, the user is on the "Welcome" screen and so "| Welcome" follows the name of the website.-->
+    <title>Acme Web Design | Abotu</title>
+</head>
+<body>
+    <header>
+        <!--We use a div with the class "container" to literally contain all the elements and help with styling and alignment.-->
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Acme</span> Web Design</h1>
+            </div>
+            
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="current"><a href="about.html">About</a> </li>
+                    <li><a href="services.html">Services</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="newsletter">
+        <div class="container">
+            <h1>Subscribe To Our Newsletter!</h1>
+            <form>
+                <input type="email" placeholder="Enter Email...">
+                <button type="submit" class="button_1">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <main>
+        <div class="container">
+            <article id="main-col">
+                <h1 class="page-title">About Us</h1>
+                <p>
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+                    Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
+                    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
+                    Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? 
+                    Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+                </p>
+                <p class="dark">
+                    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, 
+                    similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. 
+                    Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. 
+                    Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. 
+                    Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+                </p>
+            </article>
+            
+            <aside id="sidebar">
+                <div class="dark">
+                    <h3>What We Do</h3>
+                    <p>
+                        Increase the resolution, scale it up we need a larger print focus on the customer journey but pivot that is a good problem to have and herding cats. Low engagement high performance keywords. 
+                        Back to the drawing-board! Can you slack it to me? Nor upstream selling. Back to the drawing-board, touch base, so in an ideal world can you send me an invite? Or am I dead inside? This is not the hill I want to die on quick sync. 
+                        Shelfware guerrilla marketing. Bells and whistles make it more corporate, please lean into that problem. Please use "solutionise" instead of solution ideas!
+                        Quick-win or win-win, nor cross sabers. We can't hear you if you want to motivate these clowns, try less carrot and more stick conversational content.
+                    </p>
+                </div>
+                
+            </aside>
+        </div>
+    </main>
+        
+    
+    <footer>
+        <p>Acme Web Design, Copyright &copy; 2020</p>
+    </footer>
+</body>
+</html>
